@@ -18,6 +18,7 @@ public class Teste2	 {
         int num1 = 9;
         int num2 = 0;
         menu(num1,num2);
+        //teste
  }
         //Declaração das Classes
 
