@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Teste2	 {
     public static void main (String args[]){
-        Scanner in = new Scanner(System.in);   
+    	Scanner in = new Scanner(System.in);   
         int num1 = 9;
         int num2 = 0;
         menu(num1,num2);
@@ -37,13 +37,13 @@ public class Teste2	 {
 
 
     public static void menu(int num1, int num2){
-    //Scanner input = new Scanner(System.in);  
+    //  
     Scanner in = new Scanner(System.in);                
     System.out.println("/////////Escolha uma opção\\\\\\\\\\\\");
     System.out.println("1- Soma");  
     System.out.println("2- Subtracao");  
-    System.out.println("3- Multiplicacao");  
-    System.out.println("4- Divisao");  
+    System.out.println("3- Divisao ");  
+    System.out.println("4- Multiplicacao");  
     System.out.println("0- Sair");  
     System.out.println("Operação: ");  
     int opcao = in.nextInt();
@@ -79,4 +79,4 @@ public class Teste2	 {
         //default;
     }
 }
-}
+//}
